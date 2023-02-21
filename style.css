@@ -3,25 +3,29 @@
     margin: 0;
     box-sizing: border-box;
   }
+
+  html{
+    font-size: 62.5%;
+  }
   
   body {
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 1.6rem;
   }
   
   .header {
     background: black;
     display: flex;
-    height: 120px;
+    height: 12rem;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 
   main{
-    background-color: rgb(231, 6, 44);
+    background-color: blanchedalmond;
   }
   
   .headerTitle {
@@ -69,7 +73,7 @@
     font-size: 350%;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
   }
   
   .mainNavigationListItem > a {
@@ -90,7 +94,7 @@
   
   .collections {
     width: 100%;
-    padding: 40px;
+    padding: 4rem;
   }
   
   .collectionsTitle,
@@ -104,13 +108,13 @@
   .collectionsList {
     list-style: none;
     display: flex;
-    gap: 40px;
+    gap: 4rem;
     flex-wrap: wrap;
   }
   
   .collectionsListItem {
-    width: 500px;
-    height: 700px;
+    width: 50rem;
+    height: 70rem;
     flex-shrink: 1;
     flex-grow: 1;
   }
@@ -122,14 +126,14 @@
   }
   
   .info {
-    padding: 40px;
+    padding: 4rem;
     display: flex;
-    gap: 40px;
+    gap: 4rem;
     flex-wrap: wrap;
   }
   
   .block {
-    width: 400px;
+    width: 40rem;
     flex-shrink: 1;
     flex-grow: 1;
   }
@@ -139,15 +143,15 @@
   }
   
   .footer {
-    height: 120px;
+    height: 12rem;
     background: black;
     display: flex;
     color: white;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
   
   .footerNavigations {
@@ -168,9 +172,9 @@
     font-size: 80%;
   }
   
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 70rem) {
     body {
-      font-size: 14px;
+      font-size: 1.4rem;
     }
     .headerTitle {
       font-size: 380%;
